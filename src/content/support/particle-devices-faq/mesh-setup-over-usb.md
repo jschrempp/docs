@@ -318,7 +318,7 @@ meshtest3
 
 Normally when you complete the mobile phone-based setup, the setup is marked as done. In the absence of this, every time you boot your Argon or Boron gateway, it will go back into listening mode (blinking dark blue).
 
-For standalone Xenon device (using BLE, for example), you do not need to mark setup done, but make sure you've update the bootloader and use SYSTEM_MODE(MANUAL) to prevent connecting to the cloud. Without a cloud connection you won't be able to get software updates OTA, so you must manually upgrade your Device OS and bootloader over USB for standalone Xenon devices.
+For standalone Xenon device (using BLE, for example), you do not need to mark setup done, but make sure you have updated the bootloader and use SYSTEM_MODE(MANUAL) to prevent connecting to the cloud. Without a cloud connection you won't be able to get software updates OTA, so you must manually upgrade your Device OS and bootloader over USB for standalone Xenon devices.
 
 #### Marking setup done from code
 
